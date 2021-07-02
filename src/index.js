@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CallbackHook from './components/CallbackHook'
+import AppCounter from './components/AppCounter'
 
 ReactDOM.render(
-  < CallbackHook/>,
+  < AppCounter/>,
   document.getElementById('root')
 );
 
