@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AppCounter from './components/AppCounter'
+import BurgerApp from './Burger/BurgerApp'
+
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min'
 
 ReactDOM.render(
-  < AppCounter/>,
+  < BurgerApp/>,
   document.getElementById('root')
 );
 
